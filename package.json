@@ -1,0 +1,14 @@
+{
+  "name": "guestbook-monitoring",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "tsc --noEmit"},
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/kubernetes": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
